@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lstTodoItems"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_height"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.28"
+        android:background="@drawable/line_frame" >
+
+    </ListView>
+
+</LinearLayout>
